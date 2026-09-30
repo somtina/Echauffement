@@ -30,6 +30,7 @@ class Program
         float money = Convert.ToSingle(Console.ReadLine());
 
         // Etape 5 : affichez maintenant 4 choix d'armes avec chacune un prix
+        Console.Write("what weapon would you like to buy?\n gun:700$ \n bat:50$ \n Sword:100$ \n Staff:30$");
 
         // Etape 6 : laissez l'utilisateur choisir l'une de ces 4 armes en indiquant un nombre entre 1 et 4
 
