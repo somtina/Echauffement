@@ -30,10 +30,12 @@ class Program
         float money = Convert.ToSingle(Console.ReadLine());
 
         // Etape 5 : affichez maintenant 4 choix d'armes avec chacune un prix
-        Console.Write("what weapon would you like to buy?\n gun:700$ \n bat:50$ \n Sword:100$ \n Staff:30$");
+        Console.Write("what weapon would you like to buy?\n 1.gun:700$ \n 2.bat:50$ \n 3.Sword:100$ \n 4.Staff:30$");
 
         // Etape 6 : laissez l'utilisateur choisir l'une de ces 4 armes en indiquant un nombre entre 1 et 4
-
+        Console.ReadLine();
+        int Choice = Convert.ToInt32(Console.ReadLine());
+       
         // Etape 7a : vérifiez si l'utilisateur a assez d'argent par rapport à la somme qu'il avait rentré à l'étape 4
 
         // Etape 7b : modifiez l'étape 7a pour ajouter un connecteur logique qui vérifie que l'utilisateur est majeur en plus d'avoir assez d'argent
